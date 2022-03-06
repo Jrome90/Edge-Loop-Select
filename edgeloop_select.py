@@ -34,7 +34,6 @@ class MESH_OT_EdgeLoopSelect(bpy.types.Operator):
         col.prop(self, "mark_seams")
         
 
-
     @classmethod
     def poll(cls, context):
         return (context.mode == 'EDIT_MESH')

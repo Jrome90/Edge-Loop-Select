@@ -22,7 +22,6 @@ bl_info = {
     "category" : "Mesh"
 }
 
-# 
 
 if "bpy" in locals():
     import importlib

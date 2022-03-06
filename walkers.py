@@ -1,4 +1,4 @@
-from bmesh.types import BMFace, BMLoop, BMEdge, BMVert
+from bmesh.types import (BMFace, BMLoop, BMEdge, BMVert)
 
 
 def get_loop_other_edge_loop(loop: BMLoop, vert: BMVert):
